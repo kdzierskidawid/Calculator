@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dawid.mycalc.Wybor">
+
+    <Button
+        android:id="@+id/klasyczny"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/naukowy"
+        android:layout_marginTop="90dp"
+        android:text="Kalkulator klasyczny" />
+
+    <Button
+        android:id="@+id/naukowy"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/klasyczny"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:text="Kalkulator naukowy" />
+
+    <Button
+        android:id="@+id/Help"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/naukowy"
+        android:layout_below="@+id/naukowy"
+        android:layout_marginTop="85dp"
+        android:text="Help" />
+
+    <Button
+        android:id="@+id/Exit"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/naukowy"
+        android:layout_below="@+id/Help"
+        android:layout_marginTop="90dp"
+        android:text="Exit" />
+</RelativeLayout>

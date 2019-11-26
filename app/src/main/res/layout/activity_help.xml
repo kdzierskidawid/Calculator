@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dawid.mycalc.Help">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="226dp"
+        android:layout_height="236dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="4dp"
+        android:text="Autor: Dawid Kędzierski
+Numer indeksu: 227922
+Aplikacja: Kalkulator
+
+Aplikacja pozwala na wykonanie podstawowych bądź nieco bardziej skomplikowanych obliczeń matematycznych zależnie od wybranego typu kalkulatora."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
